@@ -1,0 +1,19 @@
+print("Try programiz.pro")
+num_us= int(input("ingresa un numero que quieres transformar: "))
+num_m=0
+residuo=0
+if num_us<0:
+    print ("ingresa un nujero positivo")
+elif num_us==0:
+    print ("()")
+elif num_us>0:
+    num_20=num_us//20
+    residuo=num_us%20
+    if num_20==0 and residuo==0:
+        print ("()")
+    elif num_20>0 or residuo>0:
+        l_20=num_20//5
+        p_20=num_20%5
+        l_=residuo//5
+        p_=residuo%5
+    print("el numero en mañaes ",l_20*"_",p_20*"."," ",l_*" _",p_*".")
