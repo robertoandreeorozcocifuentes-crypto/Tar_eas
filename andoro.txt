@@ -1,0 +1,42 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+#fruta=["fresa","mango","manzana"]
+#numeros=[1,2,3,4,5,6,7,8]
+
+#fruta[1]="pera"
+
+#fruta.append("banano")
+
+#print (fruta)
+
+#fruta.pop()
+
+#print(fruta)
+
+#fruta.pop(1)
+
+#print(fruta)
+
+
+#numeros=[1,3,4,5,6,7,8,9,12,14,16,18,20,35]
+#contador=0
+#for i in numeros:
+ #   if i%2==0:
+  #      contador=contador+1
+#print (contador)
+
+numeros=[1,2,3,4,5,6,7,8,9]
+impares=[]
+pares=[]
+suma1=0
+suma2=0
+for i in numeros:
+    if i%2==0:
+        pares.append(i)
+        suma1=suma1+i
+    else:
+        impares.append(i)
+        suma2=suma2+i
+print(pares)
+print(suma1)
+print(impares)
