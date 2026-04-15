@@ -1,0 +1,47 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+#print("Try programiz.pro")
+#arreglo=int(input("ingrese un numero de elementos: "))
+#base=int(input("ingrese un numero base "))
+#multiplo=0
+#for i in range (1,arreglo):
+    
+ #     multiplo=i*base
+ #     print(multiplo)
+ 
+#cantidad_n=int(input("Ingresa la cantidad de nombres que se desean ingresar: "))
+#l_nombre=0
+#nombres=[]
+#caracteres=[]
+#for i in range (cantidad_n):
+#    nombre=input("ingrese un nombre: ")
+#
+ #   nombres.append(nombre)
+#    l_nombre=len(nombre)
+#    caracteres.append(l_nombre)
+    
+#print(nombres,caracteres)
+
+#n = int(input("Cantidad de clientes : "))
+#riticas = []
+
+#for i in range(n):
+  #  nota = int(input(f"Cliente {i+1} - Evaluación (1 al 5): "))
+ #   criticas.append(nota)
+
+#print("\n--- Tabulación ---")
+#opciones = {5: "Excelente", 4: "Muy Buena", 3: "Buena", 2: "Regular", 1: "Malo"}
+
+#for valor, nombre in opciones.items():
+ #   total = criticas.count(valor)
+ #   print(f"{nombre}: {total}")
+
+#mas_frecuente = max(set(criticas), key=criticas.count)
+#print(f"Más frecuente: {mas_frecuente}")
+
+#promedio = sum(criticas) / n
+#menores = [res for res in criticas if res < promedio]
+#porcentaje_menor = (len(menores) / n) * 100
+
+#print(f"Promedio: {promedio:.2f}")
+#print(f"Porcentaje menor al promedio: {porcentaje_menor:.1f}%")
