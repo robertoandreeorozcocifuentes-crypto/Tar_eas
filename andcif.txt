@@ -1,0 +1,73 @@
+#tabla=[
+ #   [1,2,3],
+  #  [4,5,6],
+   # [7,8,9]
+    #]
+    
+#print(tabla[0][0])
+#print(tabla[1][2]-tabla[1][1])
+
+#for i in tabla:
+ #   for j in i:
+  #      if j>=6:
+   #         break
+    #    else:
+     #       print(j)
+
+#matriz=[]
+#size_1=int(input("ingrese cantidad de filas: "))
+#size_2=int(input("ingrese cantidad de columnas: "))
+
+#for f in range(size_1):
+ #   fila=[]
+  #  for c in range(size_2):
+   #     dato=int(input("INgrese dato: "))
+#        fila.append(dato)
+ #   matriz.append(fila)        
+#print(matriz)
+
+#A=[[2,3],
+ #  [4,5]]
+#B=[[5,4],
+ #  [6,8]]
+#suma=[[0,0],[0,0]]
+
+#for i in range(len(A)):
+ #   for j in range(len(A[0])):
+  #      suma[i][j]=A[i][j]+B[i][j]
+#print(suma)
+matriz2=[]
+matriz1=[]
+size_1=int(input("ingrese cantidad de filas de la matriz 1: "))
+size_2=int(input("ingrese cantidad de columnas de la matriz 1: "))
+size_3=int(input("ingrese cantidad de filas de la matriz 2: "))
+size_4=int(input("ingrese cantidad de columnas de la matriz 2: "))
+
+for f in range(size_1):
+    fila=[]
+    for c in range(size_2):
+        dato=int(input("Ingrese dato para matriz 1: "))
+        fila.append(dato)
+    matriz1.append(fila)        
+print(matriz1)
+
+for e in range(size_3):
+    fila=[]
+    for d in range(size_4):
+        dato=int(input("Ingrese dato para matriz 2: "))
+        fila.append(dato)
+    matriz2.append(fila)        
+print(matriz2)
+
+resta=[]
+
+for i in range(len(matriz1)):
+    fila_resta=[]
+    for j in range(len(matriz1[0])):
+        resta[i][j]=matriz1[i][j]-matriz2[i][j]
+        fila_resta.append(resta[i][j])
+    resta.append(fila_resta)
+print("la matriz resultante es: ")
+for fila in resta:
+    print(fila)
+
