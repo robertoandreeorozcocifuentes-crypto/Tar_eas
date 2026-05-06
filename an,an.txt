@@ -1,0 +1,37 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+#matriz=[[1,2,3],
+ #       [3,2,1],
+  #      [2,3,1]]
+#suma=[0,0,0]
+#suma1=[0,0,0]
+#for i in range (3):
+ #   for j in range (3):
+  #      suma[i]+=matriz[i][j]
+   #     suma1[j]+=matriz[i][j]
+#print("la matriz original es: ", matriz)
+#print("vector de filas", suma)
+#print("vector de columnas", suma1)
+
+matriz=[]
+filasycol=int(input("ingrese el lado del cuadrado"))
+suma=[0]*filasycol
+suma1=[0]*filasycol
+suma2=[0]
+suma4=[0]
+for i in range (filasycol):
+    lista=[]
+    for j in range (filasycol):
+        num=int(input("ingrese un numero"))
+        lista.append(num)
+matriz.append(lista)
+        suma[i]+=matriz[i][j]
+        suma1[j]+=matriz[i][j]
+        suma2[0]+=matriz[i][j]
+        suma4[1]+=matriz[i][filasycol-1-i]
+if suma==suma1==suma2==suma4:
+    print("Es un cubo magico")
+else:
+    print("no es un cubo magico")
+print(matriz)
+
